@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Research></Research>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Research from './components/Research'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    Research
   }
 }
 </script>
 
 <style>
+body {
+      background-image: url(https://cdn.pixabay.com/photo/2019/04/10/12/40/watercolour-4117017_1280.png);
+      background-size: 100%;
+    }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Grandstander', cursive;
   text-align: center;
-  color: #2c3e50;
+  color: #050911;
   margin-top: 60px;
 }
 </style>
